@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-11T18:21:51.028Z" agent="5.0 (Windows)" etag="LeCxQ36_cOeyCPrHcdO0" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-13T01:39:59.514Z" agent="5.0 (Windows)" etag="JG6lV_y0ycgAwmUheuSs" version="21.0.2" type="github">
   <diagram name="第 1 页" id="gunLv2JBtEKExqpgDwiK">
-    <mxGraphModel dx="2316" dy="345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="2449" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3120,8 +3120,11 @@
         <mxCell id="b3wSMsRGlKPEUHW9Ya2K-490" value="ARM Cortex-A9" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="2910" width="100" height="23.25" as="geometry" />
         </mxCell>
-        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-491" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="3070" width="120" height="60" as="geometry" />
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-615" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-491" target="b3wSMsRGlKPEUHW9Ya2K-606">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-491" value="&lt;div&gt;启动并进入 Docker：&lt;br&gt;&lt;/div&gt;&lt;div&gt;docker start name&lt;/div&gt;docker exec --user root -it name /bin/bash" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="279" y="3410" width="241" height="50" as="geometry" />
         </mxCell>
         <mxCell id="b3wSMsRGlKPEUHW9Ya2K-492" value="BootROM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="2870" width="120" height="20" as="geometry" />
@@ -3365,6 +3368,214 @@
         </mxCell>
         <mxCell id="b3wSMsRGlKPEUHW9Ya2K-579" value="&lt;div&gt;child &lt;br&gt;&lt;/div&gt;&lt;div&gt;nodes&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="780" y="2880" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-591" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-581" target="b3wSMsRGlKPEUHW9Ya2K-582">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-581" value="在 Vivado 中将 export 硬件设计 " style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="879.75" y="3060" width="290.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-592" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-582" target="b3wSMsRGlKPEUHW9Ya2K-583">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-582" value="&lt;div&gt;启动 Petalinux Docker 环境： &lt;br&gt;&lt;/div&gt;&lt;div&gt;docker exec --user &amp;lt;user&amp;gt; -it &amp;lt;name&amp;gt; /bin/bash&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="880" y="3120" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-593" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-583" target="b3wSMsRGlKPEUHW9Ya2K-584">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-583" value="&lt;div align=&quot;left&quot;&gt;创建 ZYNQ 工程：&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;petalinux-create -t project -n &amp;lt;name&amp;gt; --template zynq&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="879.75" y="3190" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-594" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-584" target="b3wSMsRGlKPEUHW9Ya2K-585">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-584" value="&lt;div&gt;获取硬件设计，并自动配置:&lt;/div&gt;&lt;div&gt;petalinux-config --get-hw-description &amp;lt;export_dir&amp;gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="879.5" y="3260" width="290.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-595" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-585" target="b3wSMsRGlKPEUHW9Ya2K-586">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-585" value="&lt;div&gt;配置Linux内核:&lt;/div&gt;&lt;div&gt;petalinux-config -c kernel&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="879.5" y="3340" width="290.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-596" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-586" target="b3wSMsRGlKPEUHW9Ya2K-587">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-586" value="&lt;div&gt;配置根文件系统:&lt;/div&gt;&lt;div&gt;petalinux-config -c rootfs&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="3060" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-597" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-587" target="b3wSMsRGlKPEUHW9Ya2K-588">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-587" value="&lt;div&gt;编译工程:&lt;/div&gt;&lt;div&gt;petalinux-build&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="3130" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-599" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-588" target="b3wSMsRGlKPEUHW9Ya2K-598">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-588" value="&lt;div&gt;打包并导出镜像文件：&lt;/div&gt;&lt;div&gt;petalinux-package --boot --fsbl &amp;lt;FSBL_ELF&amp;gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="3200" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-598" value="&lt;div&gt;使用虚拟机模拟启动：&lt;/div&gt;&lt;div&gt;petalinux-boot --qemu&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="3280" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-611" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-602" target="b3wSMsRGlKPEUHW9Ya2K-603">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-602" value="&lt;div&gt;拉取 Docker 镜像：&lt;/div&gt;&lt;div&gt;docker pull Ubuntu:16.04&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="279" y="3160" width="241" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-612" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-603" target="b3wSMsRGlKPEUHW9Ya2K-604">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-603" value="&lt;div&gt;添加 i386 架构软件源并升级：&lt;/div&gt;&lt;div&gt;dpkg --add-architecture i386 &amp;amp;&amp;amp; apt update&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="278" y="3220" width="242" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-613" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-604" target="b3wSMsRGlKPEUHW9Ya2K-605">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-604" value="&lt;div align=&quot;left&quot;&gt;安装所有软件依赖&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="279" y="3280" width="241" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-614" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-605" target="b3wSMsRGlKPEUHW9Ya2K-491">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-605" value="&lt;div&gt;运行 Docker：&lt;/div&gt;&lt;div&gt;docker run -it --name &amp;lt;name&amp;gt; -v &amp;lt;dir:dir&amp;gt; --user root image /bin/bash&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="279" y="3340" width="241" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-616" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-606" target="b3wSMsRGlKPEUHW9Ya2K-607">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-606" value="&lt;div&gt;创建普通用户并进入：&lt;/div&gt;&lt;div&gt;docker exec --user &amp;lt;user&amp;gt; -it &amp;lt;name&amp;gt; /bin/bash&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="559.25" y="3160" width="230.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-617" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-607" target="b3wSMsRGlKPEUHW9Ya2K-608">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-607" value="&lt;div&gt;配置语言环境为 en_US.UTF-8：&lt;/div&gt;&lt;div&gt;sudo dpkg-reconfigure locales&lt;/div&gt;&lt;div&gt;export LANG=&quot;en_US.UTF-8&quot;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="559.25" y="3230" width="230.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-608" value="&lt;div&gt;执行 Petalinux 的安装：&lt;/div&gt;&lt;div&gt;./petalinux-v2017.4-final-installer.run &amp;lt;dir&amp;gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="560" y="3300" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-625" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-619" target="b3wSMsRGlKPEUHW9Ya2K-624">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-619" value="事件定时功能模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="3600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-630" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-624" target="b3wSMsRGlKPEUHW9Ya2K-627">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-624" value="设备树" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="3660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-626" value="PL 设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="3820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-632" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-627" target="b3wSMsRGlKPEUHW9Ya2K-626">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="3790" />
+              <mxPoint x="690" y="3790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-633" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b3wSMsRGlKPEUHW9Ya2K-627" target="b3wSMsRGlKPEUHW9Ya2K-628">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="3790" />
+              <mxPoint x="830" y="3790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-627" value="AXI 总线" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="3720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-628" value="驱动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="779.5" y="3820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-634" value="匹配" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="3770" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-635" value="其他设备" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="950" y="3610" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-636" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="950" y="3670" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-637" value="platform_device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1017.75" y="3680" width="92.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-638" value="platform_driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="3680" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-639" value="platform_bus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="3680" width="92.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-641" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="950" y="3760" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-643" value="device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1017.75" y="3770" width="92.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-644" value="device_driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="3770" width="92.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-645" value="bus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="3770" width="92.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-646" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=default;width=7.142857142857142;endSize=2.898076923076923;endWidth=9.972527472527473;startWidth=9.972527472527473;startSize=2.5519230769230767;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1174.89" y="3680" as="sourcePoint" />
+            <mxPoint x="1174.89" y="3640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1174.89" y="3670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-647" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=default;width=7.142857142857142;endSize=2.898076923076923;endWidth=9.972527472527473;startWidth=9.972527472527473;startSize=2.5519230769230767;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1286.01" y="3680" as="sourcePoint" />
+            <mxPoint x="1286.01" y="3640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1286.01" y="3670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-648" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=default;width=7.142857142857142;endSize=2.898076923076923;endWidth=9.972527472527473;startWidth=9.972527472527473;startSize=2.5519230769230767;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1063.76" y="3770" as="sourcePoint" />
+            <mxPoint x="1063.76" y="3720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1063.76" y="3760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-650" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=default;width=7.142857142857142;endSize=2.898076923076923;endWidth=9.972527472527473;startWidth=9.972527472527473;startSize=2.5519230769230767;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1176.01" y="3770" as="sourcePoint" />
+            <mxPoint x="1176.01" y="3720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1176.01" y="3760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-651" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=default;width=7.142857142857142;endSize=2.898076923076923;endWidth=9.972527472527473;startWidth=9.972527472527473;startSize=2.5519230769230767;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1286.01" y="3770" as="sourcePoint" />
+            <mxPoint x="1286.01" y="3720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1286.01" y="3760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-652" value="平台模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="952.88" y="3690" width="61.75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b3wSMsRGlKPEUHW9Ya2K-653" value="设备模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="953.75" y="3775" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
